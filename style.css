@@ -1,0 +1,76 @@
+html, body {
+   height: 100%;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  /* contenitore che andrà a contenere il corpo della pagina */
+  width: 53%;
+  /* mancando un riferimento all'altezza le successive dimensioni in altezza di font e margini saranno sempre prese in  riferimento all'altezza della finestra' (")viewport height) */
+  padding: 5%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* colore settato in rgba per semplificare la selezione della trasparenza */
+  border-radius: 2%;
+  margin-top: 1%;
+}
+
+header{ /* stile del logo e del titolo */
+  text-align: center;
+}
+
+.logo{ /* dimensione del logo */
+  width: 25%;
+}
+
+.header-text{ /* stile del titolo */
+  color: #00dd00;
+  font-family: sans-serif;
+  font-size: 3vh;
+  margin-bottom: 1.5vh;
+}
+
+nav{ /* stile dei pulsanti di prenotazione */
+  background-color: #00dd00;
+  text-align: center;
+  padding: 1%;
+}
+
+.main-text-h2{ /* stile del nome dei monopattini */
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  font-size: 2vh;
+  margin-bottom: 1vh;
+}
+
+.main-text{ /* stile del testo secondario dei monopattini */
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.caricamento1{ /* stile dele barre di caricamento */
+  background-color: #f5b453;
+  width: 40%;
+  height: 3vh;
+  border-radius: 5px;
+}
+
+.caricamento2{
+  background-color: #1ec31e;
+  width: 60%;
+  height: 3vh;
+  border-radius: 5px;
+}
+
+.caricamento3{
+  background-color: #be4141;
+  width: 20%;
+  height: 3vh;
+  border-radius: 5px;
+}
